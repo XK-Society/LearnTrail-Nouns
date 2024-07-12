@@ -3,9 +3,9 @@ import { ReactTyped } from "react-typed";
 
 const Hero = () => {
   return (
-    <div className="text-white">
+    <div className="text-[#FBF6E2]">
       <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
-        <p className="text-[#00df9a] font-bold p-2">GROWING WITH LEARNING</p>
+        <p className="text-[#ECCEAE] font-bold p-2">GROWING WITH LEARNING</p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
           Learn to the max
         </h1>
@@ -21,8 +21,8 @@ const Hero = () => {
             loop
           />
         </div>
-        <p className='md:text-2xl text-xl font-bold text-gray-500'>We will guide to the end of your journey</p>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 ' >Enroll now</button>
+        <p className='md:text-2xl text-xl font-bold text-[#FBF6E2]'>We will guide to the end of your journey</p>
+        <button className='bg-[#E68369] w-[200px] rounded-md font-medium my-6 mx-auto py-3 ' >Enroll now</button>
       </div>
     </div>
   );
