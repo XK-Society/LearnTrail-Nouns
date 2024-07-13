@@ -1,0 +1,21 @@
+@layer utilities {
+    .text-shadow {
+        text-shadow: 1px 1px 1px #000;
+    }
+    .custom-gradient {
+        background-image: linear-gradient(
+            to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0)
+        );
+    }
+    .custome-box-shadow {
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    }
+    .custom-active-box-shadow {
+        box-shadow: inset -2px -2px 3px rgba(0, 0, 0, 0.6),
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6);
+    }
+}
