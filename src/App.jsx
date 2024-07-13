@@ -2,11 +2,8 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Content from "./components/Content";
-import CourseList from "./course/CourseList";
-import CourseContent from "./course/learnpage/firstcourse/CourseContent";
-import CourseDetails from "./course/learnpage/firstcourse/CourseDetails";
-import CourseQuest from "./course/learnpage/firstcourse/CourseQuest";
-import CourseEnding from "./course/learnpage/firstcourse/CourseEnding";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -14,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Content />
+      <Footer />
     </div>
   );
 }
