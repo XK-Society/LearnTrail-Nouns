@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 const items = [
   { id: 1, title: "Blockchain Development" },
-  { id: 2, title: "Course 2" },
-  { id: 3, title: "Course 3" },
-  { id: 4, title: "Course 4" },
-  { id: 5, title: "Course 5" },
-  { id: 6, title: "Course 6" },
-  { id: 7, title: "Course 7" },
-  { id: 8, title: "Course 8" },
-  { id: 9, title: "Course 9" },
+  { id: 2, title: "Coming soon" },
+  { id: 3, title: "Coming soon" },
+  { id: 4, title: "Coming soon" },
+  { id: 5, title: "Coming soon" },
+  { id: 6, title: "Coming soon"},
+  { id: 7, title: "Coming soon"},
+  { id: 8, title: "Coming soon" },
+  { id: 9, title: "Coming soon"},
 ];
 
 const CourseList = () => {

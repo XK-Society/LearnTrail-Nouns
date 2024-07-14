@@ -6,18 +6,17 @@ const Content = () => {
       <div className="max-w-[1280px] mx-auto grid md:grid-cols-2">
         <img className="max-w-[500px] mx-auto my-4" src={Guild} alt="/" />
         <div className="flex flex-col justify center">
-          <p className="text-[#E68369] md:text-xl font-normal text-xl font-presstart pt-28">COURSE LEARNING GUILD</p>
+          <p className="text-[#E68369] md:text-xl font-normal text-xl font-presstart pt-28">
+            COURSE LEARNING GUILD
+          </p>
           <h1 className="md:text-xl sm:text-xl font-normal py-2 pt-10 font-presstart tracking-tight text-[#131842]">
             All courses listed
           </h1>
           <p className="text-lg font-play font-normal">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            consectetur est rutrum bibendum viverra. Integer luctus nunc sed
-            tempus maximus. Donec at feugiat felis. Duis lectus tortor, auctor
-            sed lacus non, volutpat ornare lacus. Proin eu sem eu nulla volutpat
-            iaculis. Nulla et neque orci. Nulla facilisi. Fusce non tortor a
-            magna molestie pretium. Integer nec lectus laoreet, elementum ex
-            eget, molestie risus.
+            At Learn Trail, we believe in transforming the learning experience
+            by combining education with gamification. Our mission is to onboard
+            and empower the next generation of Web3 developers, artists, and
+            entrepreneurs through interactive and engaging courses.
           </p>
           <button className="bg-[#E68369] text-[#FBF6E2] w-[200px] rounded-md font-bold my-6 mx-auto py-3 font-play hover:bg-[#131842] ">
             Learn with us
