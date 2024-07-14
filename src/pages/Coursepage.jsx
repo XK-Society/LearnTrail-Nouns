@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar";
 const Coursepage = () => {
   return (
     <div>
-      <h2>Course Page</h2>
       <Navbar />
       <CourseList /> {/* Example of rendering CourseList */}
     </div>

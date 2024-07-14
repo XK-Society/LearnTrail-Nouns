@@ -9,54 +9,56 @@ const Footer = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-[#FBF6E2]">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#ECCEAE]">
+        <h1 className="w-full text-2xl font-normal text-[#ECCEAE]  font-presstart">
           Learn Trail
         </h1>
-        <p className="py-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+        <p className="py-4 font-normal text-l font-play">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Integer consectetur est rutrum bibendum viverra. 
+        Integer luctus nunc sed tempus maximus.
         </p>
-        <div className="flex justify-between md:w-[75%] my-6">
-          <FaFacebookSquare size={45} />
-          <FaInstagram size={45} />
-          <FaTwitterSquare size={45} />
-          <FaGithubSquare size={45} />
+        <div className="flex justify-between md:w-[75%] my-6 ">
+          <FaFacebookSquare size={45} className="hover:text-[#ECCEAE]"/>
+          <FaInstagram size={45} className="hover:text-[#ECCEAE]"/>
+          <FaTwitterSquare size={45} className="hover:text-[#ECCEAE]"/>
+          <FaGithubSquare size={45} className="hover:text-[#ECCEAE]" />
         </div>
       </div>
-      <div className="lg:col-span-2 flex justify-between mt-6">
+      <div className="lg:col-span-2 flex justify-between mt-6 font-normal">
         <div>
-          <h6 className="font-medium text-[#ECCEAE]">Solutions</h6>
-          <ul>
-            <li className="py-2 text-sm">Marketing</li>
-            <li className="py-2 text-sm">Business</li>
-            <li className="py-2 text-sm">Marketing</li>
-            <li className="py-2 text-sm">Marketing</li>
+          <h6 className="font-normal text-[#ECCEAE] font-presstart">Solutions</h6>
+          <ul className="font-play text-l ">
+            <li className="py-2 hover:text-[#ECCEAE]">Marketing</li>
+            <li className="py-2 hover:text-[#ECCEAE]">Business</li>
+            <li className="py-2 hover:text-[#ECCEAE]">Marketing</li>
+            <li className="py-2 hover:text-[#ECCEAE]">Marketing</li>
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-[#ECCEAE]">Support</h6>
-          <ul>
-            <li className="py-2 text-sm">Pricing</li>
-            <li className="py-2 text-sm">Documentation</li>
-            <li className="py-2 text-sm">Guides</li>
-            <li className="py-2 text-sm">API Status</li>
+          <h6 className="font-normal text-[#ECCEAE] font-presstart">Support</h6>
+          <ul className="font-play text-l">
+            <li className="py-2 hover:text-[#ECCEAE]">Pricing</li>
+            <li className="py-2 hover:text-[#ECCEAE]">Documentation</li>
+            <li className="py-2 hover:text-[#ECCEAE]">Guides</li>
+            <li className="py-2 hover:text-[#ECCEAE]">API Status</li>
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-[#ECCEAE]">Company</h6>
-          <ul>
-            <li className="py-2 text-sm">About</li>
-            <li className="py-2 text-sm">Blog</li>
-            <li className="py-2 text-sm">Jobs</li>
-            <li className="py-2 text-sm">Press</li>
-            <li className="py-2 text-sm">Careers</li>
+          <h6 className="font-normal text-[#ECCEAE] font-presstart">Company</h6>
+          <ul className="font-play text-l">
+            <li className="py-2 hover:text-[#ECCEAE]">About</li>
+            <li className="py-2 hover:text-[#ECCEAE]">Blog</li>
+            <li className="py-2 hover:text-[#ECCEAE]">Jobs</li>
+            <li className="py-2 hover:text-[#ECCEAE]">Press</li>
+            <li className="py-2 hover:text-[#ECCEAE]">Careers</li>
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-[#ECCEAE]">Legal</h6>
-          <ul>
-            <li className="py-2 text-sm">Claim</li>
-            <li className="py-2 text-sm">Policy</li>
-            <li className="py-2 text-sm">Terms</li>
+          <h6 className="font-medium text-[#ECCEAE] font-presstart">Legal</h6>
+          <ul className="font-play text-l">
+            <li className="py-2 hover:text-[#ECCEAE]">Claim</li>
+            <li className="py-2 hover:text-[#ECCEAE]">Policy</li>
+            <li className="py-2 hover:text-[#ECCEAE]">Terms</li>
           </ul>
         </div>
       </div>

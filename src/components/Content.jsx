@@ -6,11 +6,11 @@ const Content = () => {
       <div className="max-w-[1280px] mx-auto grid md:grid-cols-2">
         <img className="max-w-[500px] mx-auto my-4" src={Guild} alt="/" />
         <div className="flex flex-col justify center">
-          <p className="text-[#E68369] font-bold">COURSE LEARNING GUILD</p>
-          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+          <p className="text-[#E68369] md:text-xl font-normal text-xl font-presstart pt-28">COURSE LEARNING GUILD</p>
+          <h1 className="md:text-xl sm:text-xl font-normal py-2 pt-10 font-presstart tracking-tight text-[#131842]">
             All courses listed
           </h1>
-          <p>
+          <p className="text-lg font-play font-normal">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
             consectetur est rutrum bibendum viverra. Integer luctus nunc sed
             tempus maximus. Donec at feugiat felis. Duis lectus tortor, auctor
@@ -19,7 +19,7 @@ const Content = () => {
             magna molestie pretium. Integer nec lectus laoreet, elementum ex
             eget, molestie risus.
           </p>
-          <button className="bg-[#E68369] text-[#FBF6E2] w-[200px] rounded-md font-medium my-6 mx-auto py-3 ">
+          <button className="bg-[#E68369] text-[#FBF6E2] w-[200px] rounded-md font-bold my-6 mx-auto py-3 font-play hover:bg-[#131842] ">
             Learn with us
           </button>
         </div>

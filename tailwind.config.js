@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        presstart: ['"Press Start 2P"', 'cursive'],
+        play: ['Play', 'cursive'],
+      },
+    },
   },
   plugins: [],
 };

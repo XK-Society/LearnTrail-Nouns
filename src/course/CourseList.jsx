@@ -15,19 +15,19 @@ const items = [
 
 const CourseList = () => {
   return (
-    <div>
+    <div className="bg-[url('/src/assets/pagebg.png')] bg-center bg-contain h-screen">
       <div className="container mx-auto p-4">
-        <div className="font-semibold text-white text-3xl text-center">
+        <div className="text-[#FBF6E2] text-3xl text-center font-presstart m-4">
           Courses
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-7">
           {items.map((item) => (
             <div
               key={item.id}
-              className="bg-gray-200 p-16 rounded-lg shadow text-black"
+              className="bg-[#ECCEAE] hover:bg-[#FBF6E2] p-16 rounded-xl shadow text-[#131842] font-presstart text-center "
             >
               {item.title === "Blockchain Development" ? (
-                <Link to="/coursecontent">
+                <Link to="/coursedetails">
                   {" "}
                   {/* Link to homepage */}
                   {item.title}
